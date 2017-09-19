@@ -1,6 +1,4 @@
-﻿
-
-namespace VolskNet
+﻿namespace VolskNet
 {
     using Newtonsoft.Json;
     using System;
@@ -96,7 +94,7 @@ namespace VolskNet
         {
             try
             {
-                using (var reader = new JsonTextReader(new StreamReader(GetFileStream(saveName, FileExtensions.Json))))
+                using (var reader = new JsonTextReader(new StreamReader(GetFileStream(pathToTheFile, FileExtensions.Json))))
                 {
                     return serializer.Deserialize<TEntity>(reader);
                 }

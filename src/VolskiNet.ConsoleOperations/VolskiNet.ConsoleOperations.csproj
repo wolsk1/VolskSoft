@@ -30,18 +30,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="ApplicationSettings.cs" />
     <Compile Include="BasicControls.cs" />
     <Compile Include="ConsoleOperations.cs" />
     <Compile Include="Operation.cs" />
     <Compile Include="Operations.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VolskiNet.Console\VolskiNet.Console.csproj">
       <Project>{c4e723aa-046f-424b-9c00-48870437e538}</Project>
       <Name>VolskiNet.Console</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

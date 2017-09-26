@@ -3,6 +3,7 @@
     public enum FileExtensions
     {
         Json,
-        Bin
+        Bin,
+        Sql
     }
 }

@@ -36,6 +36,7 @@
     <Compile Include="BinaryProvider.cs" />
     <Compile Include="Defaults.cs" />
     <Compile Include="FileExtensions.cs" />
+    <Compile Include="FileProvider.cs" />
     <Compile Include="FileUtils.cs" />
     <Compile Include="LinqExtensions.cs" />
     <Compile Include="StringExtensions.cs" />

@@ -36,6 +36,7 @@
     <Compile Include="ApplicationSettings.cs" />
     <Compile Include="BasicControls.cs" />
     <Compile Include="ConsoleOperations.cs" />
+    <Compile Include="IAppSettings.cs" />
     <Compile Include="Operation.cs" />
     <Compile Include="Operations.cs" />
   </ItemGroup>

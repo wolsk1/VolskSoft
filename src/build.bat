@@ -18,6 +18,6 @@ if "%nuget%" == "" (
 
 mkdir Build
 mkdir Build\lib
-mkdir Build\lib\net40
+mkdir Build\lib\net451
 
 %nuget% pack "src\VolskNet.Core.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"

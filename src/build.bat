@@ -18,6 +18,6 @@ REM %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild src\VolskNet.sln /p:Conf
 
 mkdir Build
 mkdir Build\lib
-mkdir Build\lib\net451
+mkdir Build\lib\net45
 
-%nuget% pack "src\VolskNet.Core.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
+%nuget% pack "src\VolskNet.Core\VolskNet.Core.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"

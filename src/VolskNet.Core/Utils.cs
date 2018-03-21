@@ -81,7 +81,7 @@
             var type = classObject.GetType();
             var propertyInfo = type.GetProperty(propName);
 
-            return propertyInfo?.GetValue(classObject);
+            return propertyInfo != null ? propertyInfo.GetValue(classObject) : null;
         }
     }
 }

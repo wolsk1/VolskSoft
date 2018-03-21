@@ -14,7 +14,7 @@ if "%nuget%" == "" (
 	set nuget=nuget
 )
 
-%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild src\VolskNet.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
+REM %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild src\VolskNet.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
 
 mkdir Build
 mkdir Build\lib

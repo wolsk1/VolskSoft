@@ -185,7 +185,7 @@
         {
             if (namedRanges == null)
             {
-                throw new ArgumentNullException(nameof(namedRanges));
+                throw new ArgumentNullException("namedRanges");
             }
 
             foreach (var namedRange in namedRanges)

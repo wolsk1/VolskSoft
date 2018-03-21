@@ -13,7 +13,7 @@
     <tags>c# .net</tags>
   </metadata>
   <files>
-     <!-- $bin => bin\$version$\$platform$\$configugration$ -->
-     <file src="$bin$\v4.5\VolskSoft.Bibliotheca.dll" target="lib\net45" />     
+    <!-- $bin => bin\$version$\$platform$\$configugration$ -->
+    <file src="$bin$\v4.5\ConsoleOperations.dll" target="lib\net45" />     
   </files>
 </package>

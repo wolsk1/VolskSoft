@@ -1,7 +1,7 @@
 param(
     [string]$packageVersion = $null,
     [string]$config = "Release",
-    [string[]]$targetFrameworks = @("v4.5.2"),
+    [string[]]$targetFrameworks = @("v4.5"),
     [string[]]$platforms = @("AnyCpu"),
     [ValidateSet("rebuild", "build")]
     [string]$target = "rebuild",

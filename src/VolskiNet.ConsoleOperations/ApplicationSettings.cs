@@ -8,11 +8,11 @@
         {
             if (string.IsNullOrEmpty(appName))
             {
-                throw new ArgumentNullException(nameof(appName));
+                throw new ArgumentNullException("appName");
             }
             if (basicControls == null)
             {
-                throw new ArgumentNullException(nameof(basicControls));
+                throw new ArgumentNullException("basicControls");
             }
 
             BasicControls = basicControls;

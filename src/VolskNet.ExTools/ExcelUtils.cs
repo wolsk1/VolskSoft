@@ -68,11 +68,11 @@
         {
             if (cellRange == null)
             {
-                throw new ArgumentNullException(nameof(cellRange));
+                throw new ArgumentNullException("cellRange");
             }
             if (collection == null)
             {
-                throw new ArgumentNullException(nameof(collection));
+                throw new ArgumentNullException("collection");
             }
 
             MemberInfo[] membersToInclude = typeof(T)

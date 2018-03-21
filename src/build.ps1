@@ -250,6 +250,9 @@ if($currentVersion -eq "") {
 
 # Build AsposeCloud
 Build-Solution -solutionFile $rootFolder\VolskNet.sln `
+    -projects @( `
+        "$rootFolder\VolskNet.Core\VolskNet.Core.csproj"
+    ) `
     -rootFolder $rootFolder `
     -outputFolder $outputFolder `
     -platforms $platforms `

@@ -15,11 +15,11 @@
         {
             if (collection == null)
             {
-                throw new ArgumentNullException(nameof(collection));
+                throw new ArgumentNullException("collection");
             }
             if (otherCollection == null)
             {
-                throw new ArgumentNullException(nameof(otherCollection));
+                throw new ArgumentNullException("otherCollection");
             }
 
             foreach (var o in otherCollection)

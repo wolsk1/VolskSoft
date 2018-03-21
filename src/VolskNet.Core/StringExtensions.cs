@@ -13,7 +13,9 @@
         /// <returns></returns>
         public static string RemoveWhiteSpaces(this string originalString)
         {
-            return originalString?.Replace(" ", "");
+            return originalString != null 
+                ? originalString.Replace(" ", "") 
+                : null;
         }
 
         /// <summary>
@@ -54,7 +56,7 @@
         {
             if (string.IsNullOrEmpty(sourceString))
             {
-                throw new ArgumentNullException(nameof(sourceString));
+                throw new ArgumentNullException("sourceString");
             }
 
             var regex = new Regex(@"

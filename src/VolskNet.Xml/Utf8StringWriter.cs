@@ -1,4 +1,4 @@
-﻿namespace VolskNet.Xml
+﻿namespace VolskSoft.Bibliotheca.Xml
 {
     using System.IO;
     using System.Text;

@@ -7,8 +7,8 @@
     <ProjectGuid>{E46D0C7B-69F4-4F94-8CA5-8E5DF2719991}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VolskNet</RootNamespace>
-    <AssemblyName>VolskNet.Core</AssemblyName>
+    <RootNamespace>VolskSoft.Bibliotheca</RootNamespace>
+    <AssemblyName>VolskSoft.Bibliotheca.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

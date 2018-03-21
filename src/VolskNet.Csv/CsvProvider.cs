@@ -1,4 +1,4 @@
-﻿namespace VolskNet.Csv
+﻿namespace VolskSoft.Bibliotheca.Csv
 {
     using LumenWorks.Framework.IO.Csv;
     using System;

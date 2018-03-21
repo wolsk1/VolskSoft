@@ -1,4 +1,4 @@
-﻿namespace VolskNet.Csv
+﻿namespace VolskSoft.Bibliotheca.Csv
 {
     public class ReaderSettings
     {

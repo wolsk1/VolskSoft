@@ -7,8 +7,8 @@
     <ProjectGuid>{378859D3-274F-431E-9240-BB4B8FBDA593}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VolskNet.Csv</RootNamespace>
-    <AssemblyName>VolskNet.Csv</AssemblyName>
+    <RootNamespace>VolskSoft.Bibliotheca.Csv</RootNamespace>
+    <AssemblyName>VolskSoft.Bibliotheca.Csv</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

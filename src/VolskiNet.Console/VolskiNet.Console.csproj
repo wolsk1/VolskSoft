@@ -7,8 +7,8 @@
     <ProjectGuid>{C4E723AA-046F-424B-9C00-48870437E538}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VolskiNet.Console</RootNamespace>
-    <AssemblyName>VolskiNet.Console</AssemblyName>
+    <RootNamespace>VolskSoft.Bibliotheca.Console</RootNamespace>
+    <AssemblyName>VolskSoft.Bibliotheca.Console</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

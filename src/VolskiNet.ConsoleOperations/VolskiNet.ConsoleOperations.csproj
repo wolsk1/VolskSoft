@@ -7,8 +7,8 @@
     <ProjectGuid>{1283D557-2C20-4D85-8494-9FCCD37022F9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VolskiNet.ConsoleOperations</RootNamespace>
-    <AssemblyName>VolskiNet.ConsoleOperations</AssemblyName>
+    <RootNamespace>VolskSoft.Bibliotheca.ConsoleOperations</RootNamespace>
+    <AssemblyName>VolskSoft.Bibliotheca.ConsoleOperations</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

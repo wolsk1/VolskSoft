@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace VolskNet.Csv
+﻿namespace VolskSoft.Bibliotheca.Csv
 {
     public class Field
     {

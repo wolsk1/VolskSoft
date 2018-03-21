@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>VolskNet.Core</id>
+    <id>VolskSoft.Bibliotheca.Core</id>
     <version>$version$</version>
     <title>VolskNet.Core</title>
     <authors>Imants Volkovs</authors>
-    <owners>Bil Simser</owners>
+    <owners>Imants Volkovs</owners>
     <licenseUrl>https://github.com/wolsk1/VolskiNet/blob/master/LICENSE.md</licenseUrl>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Different kind of utilities for .NET framework applications.</description>
@@ -13,6 +13,6 @@
     <tags>c# .net</tags>
   </metadata>
   <files>
-	  <file src="VolskNet.Core\bin\$configuration$\VolskNet.Core.dll" target="lib\net40\" />
+	  <file src="VolskNet.Core\bin\$configuration$\VolskNet.Core.dll" target="lib\net451\" />
   </files>
 </package>

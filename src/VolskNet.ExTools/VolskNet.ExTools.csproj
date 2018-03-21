@@ -7,8 +7,8 @@
     <ProjectGuid>{CC033080-4F83-48F6-8170-23D95085CA41}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VolskNet.ExTools</RootNamespace>
-    <AssemblyName>VolskNet.ExTools</AssemblyName>
+    <RootNamespace>VolskSoft.ExTools</RootNamespace>
+    <AssemblyName>VolskSoft.ExTools</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -1,4 +1,4 @@
-﻿namespace VolskNet.ExTools
+﻿namespace VolskSoft.ExTools
 {
     using OfficeOpenXml.DataValidation.Formulas.Contracts;
     using System.Collections.Generic;

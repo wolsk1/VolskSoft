@@ -7,8 +7,8 @@
     <ProjectGuid>{823CFF72-40D3-42E7-B593-40E9C4675BCA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VolskNet.Xml</RootNamespace>
-    <AssemblyName>VolskNet.Xml</AssemblyName>
+    <RootNamespace>VolskSoft.Bibliotheca.Xml</RootNamespace>
+    <AssemblyName>VolskSoft.Bibliotheca.Xml</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

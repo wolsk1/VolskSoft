@@ -1,4 +1,4 @@
-﻿namespace VolskNet.Json
+﻿namespace VolskSoft.Bibliotheca.Json
 {
     using Newtonsoft.Json;
     using System;

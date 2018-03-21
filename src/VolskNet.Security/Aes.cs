@@ -1,4 +1,4 @@
-﻿namespace VolskNet.Security
+﻿namespace VolskSoft.Bibliotheca.Security
 {
     using System;
     using System.IO;

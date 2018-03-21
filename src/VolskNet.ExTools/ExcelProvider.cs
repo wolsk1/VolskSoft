@@ -1,6 +1,7 @@
-﻿namespace VolskNet.ExTools
+﻿namespace VolskSoft.ExTools
 {
     using OfficeOpenXml;
+    using VolskSoft.Bibliotheca;
     using System;
     using System.Collections.Generic;
     using System.Linq;

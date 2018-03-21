@@ -1,4 +1,4 @@
-﻿namespace VolskNet.Xml
+﻿namespace VolskSoft.Bibliotheca.Xml
 {
     using System;
     using System.Globalization;

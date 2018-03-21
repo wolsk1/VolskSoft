@@ -7,8 +7,8 @@
     <ProjectGuid>{729F5695-F995-4632-B72A-48CFEF39ED99}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VolskNet.Json</RootNamespace>
-    <AssemblyName>VolskNet.Json</AssemblyName>
+    <RootNamespace>VolskSoft.Bibliotheca.Json</RootNamespace>
+    <AssemblyName>VolskSoft.Bibliotheca.Json</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace VolskNet
+﻿namespace VolskSoft.Bibliotheca
 {
     using System;
     using System.Reflection;

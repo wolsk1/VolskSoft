@@ -1,4 +1,4 @@
-﻿namespace VolskNet.ExTools
+﻿namespace VolskSoft.ExTools
 {
     using System.Collections.Generic;
     using System.Dynamic;

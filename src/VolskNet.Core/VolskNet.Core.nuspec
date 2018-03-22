@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>VolskSoft.Bibliotheca.ConsoleOperations</id>
+    <id>VolskSoft.Bibliotheca.Core</id>
     <version>$version$</version>
     <title>VolskNet.Core</title>
     <authors>Imants Volkovs</authors>
@@ -14,6 +14,6 @@
   </metadata>
   <files>
      <!-- $bin => bin\$version$\$platform$\$configugration$ -->
-     <file src="$bin$\v4.5\VolskSoft.Bibliotheca.Core.dll" target="lib\net45" />     
+     <file src="$bin$\v4.5\VolskSoft.Bibliotheca.dll" target="lib\net45" />     
   </files>
 </package>

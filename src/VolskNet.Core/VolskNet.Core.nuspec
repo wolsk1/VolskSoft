@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>VolskSoft.Bibliotheca.Core</id>
+    <id>VolskSoft.Bibliotheca</id>
     <version>$version$</version>
-    <title>VolskNet.Core</title>
+    <title>VolskSoft.Bibliotheca.Core</title>
     <authors>Imants Volkovs</authors>
     <owners>Imants Volkovs</owners>
     <licenseUrl>https://github.com/wolsk1/VolskiNet/blob/master/LICENSE.md</licenseUrl>    
@@ -14,6 +14,6 @@
   </metadata>
   <files>
      <!-- $bin => bin\$version$\$platform$\$configugration$ -->
-     <file src="$bin$\v4.5\VolskSoft.Bibliotheca.dll" target="lib\net45" />     
+     <file src="$bin$\v4.5\$id$.dll" target="lib\net45" />     
   </files>
 </package>

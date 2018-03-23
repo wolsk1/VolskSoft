@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>VolskSoft.Bibliotheca.Xml</id>
+    <version>$version$</version>
+    <title>VolskSoft.Bibliotheca.Xml</title>
+    <authors>Imants Volkovs</authors>
+    <owners>Imants Volkovs</owners>
+    <licenseUrl>https://github.com/wolsk1/VolskiNet/blob/master/LICENSE.md</licenseUrl>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>XML utilities for .NET framework applications.</description>
+    <releaseNotes></releaseNotes>    
+    <tags>c# .net</tags>
+  </metadata>
+  <files>
+     <!-- $bin => bin\$version$\$platform$\$configugration$ -->
+     <file src="$bin$\v4.5\VolskSoft.Bibliotheca.Xml.dll" target="lib\net45" />     
+  </files>
+</package>

@@ -252,7 +252,7 @@ if($currentVersion -eq "") {
 Build-Solution -solutionFile $rootFolder\VolskNet.sln `
     -projects @( `
         "$rootFolder\VolskNet.Core\VolskNet.Core.csproj", `
-        "$rootFolder\VolskNet.Console\VolskNet.Console.csproj" `
+        "$rootFolder\VolskiNet.Console\VolskiNet.Console.csproj" `
     ) `
     -rootFolder $rootFolder `
     -outputFolder $outputFolder `

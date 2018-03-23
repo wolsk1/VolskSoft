@@ -14,7 +14,7 @@
   </metadata>
   <files>
     <!-- $bin => bin\$version$\$platform$\$configugration$ -->
-    <file src="$bin$\v4.5\$id$.dll" target="lib\net45" />     
+    <file src="$bin$\v4.5\VolskSoft.Bibliotheca.ConsoleOperations.dll" target="lib\net45" />     
   </files>
   <dependencies>
     <dependency id="VolskSoft.Bibliotheca.Console" version="$version$" />

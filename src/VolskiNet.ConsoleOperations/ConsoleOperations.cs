@@ -1,4 +1,4 @@
-﻿namespace VolskiNet.ConsoleOperations
+﻿namespace VolskSoft.Bibliotheca.ConsoleOperations
 {
     using System;
     using System.Linq;
@@ -21,8 +21,8 @@
             {
                 DisplayOperations();
 
-                actionKey = Console.ReadKey().Key;
-                Console.Clear();
+                actionKey = System.Console.ReadKey().Key;
+                System.Console.Clear();
                 if (actionKey.Equals(settings.BasicControls.QuitKey))
                 {
                     continue;
@@ -30,24 +30,28 @@
 
                 var key = actionKey;
                 var operation = GetOperation(o => o.ActivationKey.Equals(key));
-                operation?.Action();
+
+                if (operation != null)
+                {
+                    operation.Action();
+                }
 
             } while (!actionKey.Equals(settings.BasicControls.QuitKey));
         }
 
         public void DisplayOperations()
         {
-            Console.WriteLine("-----------------------");
-            Console.WriteLine($"--{settings.AppName}--");
-            Console.WriteLine("-----------------------");
-            Console.WriteLine("Available actions: ");
+            System.Console.WriteLine("-----------------------");
+            System.Console.WriteLine(string.Format("--{0}--", settings.AppName));
+            System.Console.WriteLine("-----------------------");
+            System.Console.WriteLine("Available actions: ");
 
             foreach (var operation in operations)
             {
-                Console.WriteLine($"{operation.ActivationKey} - {operation.Name}");
+                System.Console.WriteLine(string.Format("{0} - {1}", operation.ActivationKey, operation.Name));
             }
 
-            Console.WriteLine($"Press {settings.BasicControls.QuitKey} to exit.");
+            System.Console.WriteLine(string.Format("Press {0} to exit.", settings.BasicControls.QuitKey));
         }
 
         public void SetOperations(Operations operationList) =>

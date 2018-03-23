@@ -1,4 +1,4 @@
-﻿namespace VolskiNet.Console
+﻿namespace VolskSoft.Bibliotheca.Console
 {
     using System;
 

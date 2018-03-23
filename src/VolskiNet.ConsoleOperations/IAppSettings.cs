@@ -1,4 +1,4 @@
-﻿namespace VolskiNet.ConsoleOperations
+﻿namespace VolskSoft.Bibliotheca.ConsoleOperations
 {
     public interface IAppSettings
     {

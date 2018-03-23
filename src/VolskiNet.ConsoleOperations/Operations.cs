@@ -1,4 +1,4 @@
-﻿namespace VolskiNet.ConsoleOperations
+﻿namespace VolskSoft.Bibliotheca.ConsoleOperations
 {
     using System.Collections.Generic;
 

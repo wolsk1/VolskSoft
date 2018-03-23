@@ -1,8 +1,8 @@
-﻿namespace VolskiNet.Console
+﻿namespace VolskSoft.Bibliotheca.Console
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
     public class ConsoleActions
     {
@@ -18,7 +18,7 @@
 
                 foreach (var desiredKey in desiredKeys)
                 {
-                    Console.WriteLine($"{desiredKey.Key} - {desiredKey.Description}");
+                    Console.WriteLine(string.Format("{0} - {1}", desiredKey.Key, desiredKey.Description));
                 }
 
                 selectedKey = Console.ReadKey().Key;

@@ -1,7 +1,7 @@
-﻿namespace VolskiNet.ConsoleOperations
-{
-    using System;
+﻿using System;
 
+namespace VolskSoft.Bibliotheca.ConsoleOperations
+{
     public class ApplicationSettings
     {
         public ApplicationSettings(string appName, BasicControls basicControls)

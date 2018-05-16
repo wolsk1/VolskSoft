@@ -44,7 +44,7 @@
         /// <typeparam name="T">Type if IList</typeparam>
         /// <param name="rows">IList with Rows</param>
         /// <returns>IList of type T</returns>
-        public static IEnumerable<T> ConvertTo<T>(IList<DataRow> rows)
+        public static IEnumerable<T> ConvertTo<T>(this IList<DataRow> rows)
         {
             return rows?.Select(DataTableUtils.CreateItem<T>).ToList();
         }

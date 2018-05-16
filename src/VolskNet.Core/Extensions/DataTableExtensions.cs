@@ -11,21 +11,21 @@ namespace VolskSoft.Bibliotheca
         /// <typeparam name="T">Type of List</typeparam>
         /// <param name="table">DataTable</param>
         /// <returns>IList of type T</returns>
-        public static IList<T> ConvertTo<T>(this DataTable table)
+        public static IEnumerable<T> ConvertTo<T>(this DataTable table)
         {
             if (table == null)
             {
                 return null;
             }
 
-            List<DataRow> rows = new List<DataRow>();
+            IList<DataRow> rows = new List<DataRow>();
 
             foreach (DataRow row in table.Rows)
             {
                 rows.Add(row);
             }
 
-            return ConvertTo<T>(rows);
+            return rows.ConvertTo<T>();
         }
     }
 }

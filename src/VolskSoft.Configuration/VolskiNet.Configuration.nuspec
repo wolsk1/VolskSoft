@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>VolskSoft.Bibliotheca.Configuration</id>
+    <id>VolskSoft.Bibliotheca.Console</id>
     <version>$version$</version>
-    <title>VolskSoft.Bibliotheca.Configuration</title>
+    <title>VolskSoft.Bibliotheca.Console</title>
     <authors>Imants Volkovs</authors>
     <owners>Imants Volkovs</owners>
     <licenseUrl>https://github.com/wolsk1/VolskiNet/blob/master/LICENSE.md</licenseUrl>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Configuration utilities for .NET framework applications.</description>
+    <description>Console utilities for .NET framework applications.</description>
     <releaseNotes></releaseNotes>    
     <tags>c# .net</tags>
   </metadata>
   <files>
     <!-- $bin => bin\$version$\$platform$\$configugration$ -->
-    <file src="$bin$\v4.5\VolskSoft.Bibliotheca.Configuration.dll" target="lib\net45" />     
+    <file src="$bin$\v4.5\VolskSoft.Bibliotheca.Console.dll" target="lib\net45" />     
   </files>
 </package>

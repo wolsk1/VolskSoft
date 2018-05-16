@@ -46,7 +46,14 @@
         /// <returns>IList of type T</returns>
         public static IEnumerable<T> ConvertTo<T>(this IList<DataRow> rows)
         {
-            return rows?.Select(DataTableUtils.CreateItem<T>).ToList();
+            IEnumerable<T> list = null;
+
+            if (rows != null)
+            {
+                list = rows.Select(DataTableUtils.CreateItem<T>);
+            }
+
+            return list;
         }
 
         /// <summary> Like join from JScript: Returns a string value consisting of all

@@ -43,12 +43,12 @@
         {
             if (classObject == null)
             {
-                throw new ArgumentNullException(nameof(classObject));
+                throw new ArgumentNullException("classObject");
             }
 
             if (string.IsNullOrEmpty(propName))
             {
-                throw new ArgumentNullException(nameof(propName));
+                throw new ArgumentNullException("propName");
             }
 
             var type = classObject.GetType();

@@ -39,11 +39,11 @@
     <Compile Include="Extensions\EnumerableExtensions.cs" />
     <Compile Include="Utilities\DataTableUtils.cs" />
     <Compile Include="Defaults.cs" />
-    <Compile Include="FileExtensions.cs" />
+    <Compile Include="Extensions\FileExtensions.cs" />
     <Compile Include="FileProvider.cs" />
-    <Compile Include="FileUtils.cs" />
-    <Compile Include="LinqExtensions.cs" />
-    <Compile Include="StringExtensions.cs" />
+    <Compile Include="Utilities\FileUtils.cs" />
+    <Compile Include="Extensions\LinqExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Utilities\StringUtils.cs" />
     <Compile Include="Utilities\PropertyUtils.cs" />
   </ItemGroup>

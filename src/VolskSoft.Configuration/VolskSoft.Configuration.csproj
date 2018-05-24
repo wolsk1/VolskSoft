@@ -35,12 +35,22 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContainerConfigSection.cs" />
-    <Compile Include="LibConfigElement.cs" />
-    <Compile Include="LibsConfigElementCollection.cs" />
-    <Compile Include="ModuleConfigElement.cs" />
-    <Compile Include="ModuleConfigElementElementCollection.cs" />
+    <Compile Include="ApplicationConfigFileProvider.cs" />
+    <Compile Include="ConfigAttributeNotFoundException.cs" />
+    <Compile Include="ConfigurationSection.cs" />
+    <Compile Include="ISettingsProvider.cs" />
+    <Compile Include="KeyNotFoundException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SectionNotFoundException.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SettingsCollection.cs" />
+    <Compile Include="SettingsProviderBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VolskNet.Core\VolskNet.Core.csproj">
+      <Project>{e46d0c7b-69f4-4f94-8ca5-8e5df2719991}</Project>
+      <Name>VolskNet.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

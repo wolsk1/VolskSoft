@@ -35,6 +35,7 @@
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="BinaryProvider.cs" />
+    <Compile Include="Exceptions\MalfunctionException.cs" />
     <Compile Include="Extensions\DataTableExtensions.cs" />
     <Compile Include="Extensions\EnumerableExtensions.cs" />
     <Compile Include="Utilities\DataTableUtils.cs" />

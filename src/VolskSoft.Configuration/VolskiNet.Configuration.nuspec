@@ -8,7 +8,7 @@
     <owners>Imants Volkovs</owners>
     <licenseUrl>https://github.com/wolsk1/VolskiNet/blob/master/LICENSE.md</licenseUrl>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Console utilities for .NET framework applications.</description>
+    <description>Configuration utilities for .NET framework applications.</description>
     <releaseNotes></releaseNotes>    
     <tags>c# .net</tags>
   </metadata>

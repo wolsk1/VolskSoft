@@ -348,7 +348,8 @@
         /// </summary>
         private static void GetProviders()
         {
-            if (!(ConfigurationManager.GetSection(ConfigSection) is ConfigurationSection section))
+            var section = (ConfigurationSection) ConfigurationManager.GetSection(ConfigSection);
+            if (section == null)
             {
                 return;
             }

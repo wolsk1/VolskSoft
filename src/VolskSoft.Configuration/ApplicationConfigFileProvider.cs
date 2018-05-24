@@ -36,7 +36,9 @@
                         SectionNameAttributeName));
             }
 
-            if (!(ConfigurationManager.GetSection(sectionName) is NameValueCollection values))
+            var values = (NameValueCollection) ConfigurationManager.GetSection(sectionName);
+
+            if (values == null)
             {
                 throw new SectionNotFoundException(sectionName);
             }

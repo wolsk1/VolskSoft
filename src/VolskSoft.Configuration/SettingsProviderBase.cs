@@ -97,9 +97,12 @@
             if (!string.IsNullOrEmpty(value))
                 return value;
 
-            return Settings.Contains(key)
-                ? Settings.GetString(key)
-                : throw new InvalidOperationException("Missing parameter \"" + key + "\".");
+            if (Settings.Contains(key))
+            {
+                return Settings.GetString(key);
+            }
+
+            throw new InvalidOperationException("Missing parameter \"" + key + "\".");
         }
 
         /// <summary>
